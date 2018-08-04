@@ -1,0 +1,41 @@
+body {
+    background-color: #eeeeee;
+}
+.container-fluid:first-of-type {
+    background-color: #202020;
+}
+.container-fluid .row {
+    height: 100px;
+}
+.container h1:first-of-type {
+    color: #ff7100;
+}
+.container .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#address {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-right: none;
+    color: #a9a9a9;
+}
+#address:focus{
+    outline: none;
+    color: #202020;
+    text-transform: uppercase;
+}
+#submit {
+    border-radius: 0 10px 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-left: none;
+    font-weight: 700;
+}
+#submit:focus {
+    outline: none;
+}
